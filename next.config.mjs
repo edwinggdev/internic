@@ -4,8 +4,8 @@ const nextConfig = {
     eslint: {
         ignoreDuringBuilds: true,
       },
-      basePath: '/internic', 
-      assetPrefix: '/internic',
+      // basePath: '/internic', 
+      // assetPrefix: '/internic',
 };
 
 export default nextConfig;
