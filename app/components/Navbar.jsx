@@ -1,7 +1,7 @@
 import React from "react";
 import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import Link from 'next/link';
+// import Link from 'next/link';
 const Navbar = () => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
@@ -24,12 +24,13 @@ const Navbar = () => {
 
           {/* Enlaces principales */}
           <div className="hidden md:flex space-x-6">
-            <Link to="/destinations"
-              // href={`${basePath}/destinations`}
+            {/* <Link to="/destinations" */}
+            <a href={`${basePath}/destinations`}
               className="text-gray-600 hover:text-blue-500 transition"
             >
               Destinos
-            </Link>
+              </a>
+            {/* </Link> */}
             {/* <a
               href="/"
               className="text-gray-600 hover:text-blue-500 transition"
