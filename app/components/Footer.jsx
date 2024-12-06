@@ -1,6 +1,5 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa";
 const Footer = () => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
   return (
@@ -13,25 +12,25 @@ const Footer = () => {
             alt="Logo"
             className="w-52 h-46 mb-4 mx-auto"
           />
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4">
             Ponte en contacto con nuestros asesores
           </h2>
-          <p className="text-gray-600 mb-6">
+          <p className="text-cyan-200 text-lg mb-6">
             Download the app to manage your projects, keep track of the progress and complete tasks without procrastinating. Stay on track and complete on time!
           </p>
           {/* Iconos sociales */}
           <div className="flex justify-center items-center space-x-8">
-            <a href="#" className="text-gray-600 hover:text-gray-800">
+            <a href="#" className="text-white hover:text-gray-800">
                 <FaInstagram className="h-9 w-9" />
               {/* <i className="fab fa-instagram text-2xl"></i> */}
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-800">
+            <a href="#" className="text-white hover:text-gray-800">
                 <FaFacebook className="h-9 w-9" />
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-800">
-                <FaXTwitter className="h-9 w-9" />
+            <a href="#" className="text-white hover:text-gray-800">
+                <FaYoutube className="h-9 w-9" />
             </a>
-            <a href="#" className="text-gray-600 hover:text-gray-800">
+            <a href="#" className="text-white hover:text-gray-800">
                 <FaTiktok className="h-9 w-9" />
             </a>
           </div>

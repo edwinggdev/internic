@@ -1,6 +1,6 @@
 import React from "react";
-import { FaInstagram, FaFacebook, FaTiktok } from "react-icons/fa";
-import { FaXTwitter } from "react-icons/fa6";
+import { FaInstagram, FaFacebook, FaTiktok, FaYoutube } from "react-icons/fa";
+// import { FaXTwitter } from "react-icons/fa6";
 // import Link from 'next/link';
 const Navbar = () => {
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -70,15 +70,15 @@ const Navbar = () => {
         <FaFacebook className="h-5 w-5" />
       </a>
       <a
-        href="https://twitter.com"
+        href="https://youtube.com"
         target="_blank"
         rel="noreferrer"
         className="text-gray-600 hover:text-blue-400 transition-colors"
       >
-        <FaXTwitter className="h-5 w-5" />
+        <FaYoutube className="h-5 w-5" />
       </a>
       <a
-        href="https://youtube.com"
+        href="https://tiktok.com"
         target="_blank"
         rel="noreferrer"
         className="text-gray-600 hover:text-red-600 transition-colors"
